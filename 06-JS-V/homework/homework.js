@@ -45,7 +45,7 @@ function agregarStringInvertida() {
   	let cadenaInvert = "";
   	while (x>=0) {
     cadenaInvert = cadenaInvert + this.charAt(x);
-    x--;
+    x = x - 1;
   }
   return cadenaInvert;
 }
